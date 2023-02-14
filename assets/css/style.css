@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(6, 16, 105);
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(252, 0, 0);
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.card{
+    box-shadow: 1px 1px 15px #c1c1c1;
+}
+.card-body{
+    height: 200px;
+    overflow: auto;
+}
+
+.card-title{
+    font-size: 14px;
+}
+.card-text{
+    font-size: 16px;
+}
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
+.price,.rate{
+    font-size: 16px;
+    font-weight: 500;
+}
+.info,nav{
+    background-color: #329b418a;
+    border-radius: 5px;
+}
